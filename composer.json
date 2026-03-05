@@ -1,0 +1,38 @@
+{
+  "name": "sowasit/client-php",
+  "description": "Official SoWasIt PHP client library for blockchain operations",
+  "type": "library",
+  "version": "0.2.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SoWasIt Team"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-openssl": "*",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0 || ^10.0",
+    "squizlabs/php_codesniffer": "^3.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "SoWasIt\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SoWasIt\\Tests\\": "tests/"
+    }
+  },
+  "keywords": [
+    "blockchain",
+    "sowasit",
+    "client",
+    "api",
+    "php"
+  ]
+}
