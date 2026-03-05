@@ -1,3 +1,4 @@
+PUBLISH.md
 vendor/
 composer.lock
 .env
