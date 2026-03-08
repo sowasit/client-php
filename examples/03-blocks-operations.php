@@ -6,7 +6,7 @@ use SoWasIt\SowasitClient;
 use SoWasIt\Exception\SowasitException;
 
 $client = new SowasitClient([
-    'baseUrl' => 'https://api.sowasit.io',
+    'baseUrl' => 'https://api.sowasit.io/v1',
     'apiKey' => getenv('SOWASIT_API_KEY') ?: 'sk_live_xxxxx',
 ]);
 

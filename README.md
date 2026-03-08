@@ -72,7 +72,7 @@ All users can create their own private chains in the dashboard:
 Create a file named `.env` in your project folder:
 
 ```
-SOWASIT_API_URL=https://api.sowasit.io
+SOWASIT_API_URL=https://api.sowasit.io/v1
 SOWASIT_API_KEY=live_xxxxx
 ```
 
@@ -90,7 +90,7 @@ require 'vendor/autoload.php';
 use SoWasIt\SowasitClient;
 
 $client = new SowasitClient([
-    'baseUrl' => 'https://api.sowasit.io',
+    'baseUrl' => 'https://api.sowasit.io/v1',
     'apiKey' => 'live_xxxxx',
 ]);
 ```
@@ -220,7 +220,7 @@ echo "Created: " . $block->created_at;
 Create a `.env` file:
 
 ```
-SOWASIT_API_URL=https://api.sowasit.io
+SOWASIT_API_URL=https://api.sowasit.io/v1
 SOWASIT_API_KEY=live_xxxxx
 ```
 
@@ -228,7 +228,7 @@ Use in your code:
 
 ```php
 $client = new SowasitClient([
-    'baseUrl' => $_ENV['SOWASIT_API_URL'] ?? 'https://api.sowasit.io',
+    'baseUrl' => $_ENV['SOWASIT_API_URL'] ?? 'https://api.sowasit.io/v1',
     'apiKey' => $_ENV['SOWASIT_API_KEY'],
     'timeout' => 30,
 ]);
@@ -449,7 +449,7 @@ After generating your key, register the public key using an enrollment token fro
 
 ```php
 $client = new SowasitClient([
-    'baseUrl' => 'https://api.sowasit.io',
+    'baseUrl' => 'https://api.sowasit.io/v1',
     'apiKey' => 'live_xxxxx',
 ]);
 
@@ -679,7 +679,7 @@ use SoWasIt\SowasitClient;
 use SoWasIt\Exception\SowasitException;
 
 $client = new SowasitClient([
-    'baseUrl' => 'https://api.sowasit.io',
+    'baseUrl' => 'https://api.sowasit.io/v1',
     'apiKey' => 'live_xxxxx',
 ]);
 
