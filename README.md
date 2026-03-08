@@ -73,7 +73,7 @@ Create a file named `.env` in your project folder:
 
 ```
 SOWASIT_API_URL=https://api.sowasit.io
-SOWASIT_API_KEY=sk_live_xxxxx
+SOWASIT_API_KEY=live_xxxxx
 ```
 
 ---
@@ -91,7 +91,7 @@ use SoWasIt\SowasitClient;
 
 $client = new SowasitClient([
     'baseUrl' => 'https://api.sowasit.io',
-    'apiKey' => 'sk_live_xxxxx',
+    'apiKey' => 'live_xxxxx',
 ]);
 ```
 
@@ -221,7 +221,7 @@ Create a `.env` file:
 
 ```
 SOWASIT_API_URL=https://api.sowasit.io
-SOWASIT_API_KEY=sk_live_xxxxx
+SOWASIT_API_KEY=live_xxxxx
 ```
 
 Use in your code:
@@ -450,7 +450,7 @@ After generating your key, register the public key using an enrollment token fro
 ```php
 $client = new SowasitClient([
     'baseUrl' => 'https://api.sowasit.io',
-    'apiKey' => 'sk_live_xxxxx',
+    'apiKey' => 'live_xxxxx',
 ]);
 
 $response = $client->registerPublicKey([
@@ -680,7 +680,7 @@ use SoWasIt\Exception\SowasitException;
 
 $client = new SowasitClient([
     'baseUrl' => 'https://api.sowasit.io',
-    'apiKey' => 'sk_live_xxxxx',
+    'apiKey' => 'live_xxxxx',
 ]);
 
 try {
