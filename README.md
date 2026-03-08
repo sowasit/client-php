@@ -5,7 +5,7 @@ Official PHP client for integrating SoWasIt blockchain into your applications. C
 **Perfect for:** Recording user actions, transaction logs, audit trails, IoT sensor data, or any immutable event tracking.
 
 **Website:** [sowasit.io](https://sowasit.io)  
-**Dashboard:** [app.sowasit.io](https://app.sowasit.io)
+**Dashboard:** [sowasit.io](https://sowasit.io)
 
 ---
 
@@ -23,7 +23,7 @@ composer require sowasit/client-php
 
 This library uses **API Key** authentication (stateless, backend-to-backend):
 
-1. Go to [https://app.sowasit.io](https://app.sowasit.io)
+1. Go to [https://sowasit.io](https://sowasit.io)
 2. Create an account and log in
 3. In your dashboard, click **"API Keys"**
 4. Click **"Create New API Key"**
@@ -696,5 +696,5 @@ MIT License - See LICENSE file for details
 
 For support, documentation, and more information:
 - Website: [sowasit.io](https://sowasit.io)
-- Dashboard: [app.sowasit.io](https://app.sowasit.io)
+- Dashboard: [sowasit.io](https://sowasit.io)
 - Issues: Report problems on GitHub
