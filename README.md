@@ -5,11 +5,41 @@ Official PHP client for integrating SoWasIt blockchain into your applications. C
 **Perfect for:** Recording user actions, transaction logs, audit trails, IoT sensor data, or any immutable event tracking.
 
 **Website:** [sowasit.io](https://sowasit.io)  
-**Dashboard:** [sowasit.io](https://sowasit.io)
+**Dashboard:** [sowasit.io/dashboard](https://sowasit.io/dashboard)
+
 
 ---
-
 ## Installation
+
+### Step 0: Check Requirements (Optional)
+
+If you're not sure whether your environment meets the requirements, run our diagnostic script:
+
+#### On Linux/macOS:
+```bash
+curl -sS https://raw.githubusercontent.com/sowasit/client-php/main/check-requirements.sh | bash
+# Or if you've cloned the repository:
+./check-requirements.sh
+```
+
+#### On Windows:
+```
+# Download and run the batch file
+curl -sS https://raw.githubusercontent.com/sowasit/client-php/main/check-requirements.cmd -o check-requirements.cmd
+check-requirements.cmd
+```
+
+The script will verify:
+
+✅ PHP version (7.4 or higher required)
+
+✅ Required extensions (intl, curl, mbstring, json)
+
+✅ Composer installation
+
+🔧 Provide installation instructions if anything is missing
+
+
 
 ### Step 1: Install via Composer
 
@@ -17,7 +47,7 @@ Official PHP client for integrating SoWasIt blockchain into your applications. C
 composer require sowasit/client-php
 ```
 
-> **Requires** PHP 7.4+ with `ext-openssl` (enabled by default on most PHP installations).
+> **Requires** PHP 7.4+ with `ext-openssl` (enabled by default on most PHP installations) and `php-intl`.
 
 ### Step 2: Create Your API Key
 

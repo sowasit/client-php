@@ -9,3 +9,4 @@ composer.lock
 .vscode/
 *.swp
 *.swo
+tests/
